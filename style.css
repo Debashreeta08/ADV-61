@@ -1,0 +1,175 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: 5px solid blue;
+    padding: 5px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(pink, lavender, yellow);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: Blue;
+    font-family: 'New Tegomin', serif;
+}
+
+#name {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: purple;
+}
+
+p {
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    line-height: 1.3;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+
+}
+
+#Myfavouritehobby {
+    font-size: 42;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(pink, skyblue);
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    position: fixed;
+    margin-top: 0px;
+
+}
+
+.links {
+    float: left;
+    color: purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    border: 2px solid #f01c41;
+}
+
+.links:hover {
+    background-image: linear-gradient(pink, lavender, skyblue);
+    font-size: 25px;
+    text-decoration: underline;
+    color: deeppink;
+    font-family: fantasy;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+     font-family: 'Hi Melody', cursive;
+}
+
+.picture.hover {
+    color: purple;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Myfavouriteartist {
+    background-image: linear-gradient(pink, #f2ab29, yellow);
+}
+
+#Myinspiration {
+    background-image: linear-gradient(skyblue, lavender, yellow);
+}
+
+.image {
+    width: 300px;
+}
+
+}
+
+#contact {
+    background-image: linear-gradient(#f2d59f, lavender);
+    height: 400px;
+    width: 100%;
+}
+
+#contact img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    border: 2x solid black;
+    box-shadow: 2px 2px #4a4646;
+}
+
+h3 {
+    color: red;
+    text-decoration: underline;
+    text-shadow: pink;
+    font-size: 25px;
+}
+
+#Leonardo {
+    width: 300px;
+}
+
+
+#Da-Vinci {
+    width: 300px;
+}
